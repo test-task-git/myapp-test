@@ -1,0 +1,6 @@
+deployment:
+  production:
+    branch: master
+    commands:
+      - git remote add production root@195.133.201.82
+      - git push production master
